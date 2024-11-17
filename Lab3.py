@@ -8,16 +8,15 @@ def bubble_sort(arr, sorting_order):
 
     # Copy input list to results list
     arr_result = arr.copy()
-
+    if not all(isinstance(n, int) for n in arr):
+        return 2
     # Get number of elements in the list
     n = len(arr_result)
-    if n<=10:
+    if n>=10:
         return 1
     elif n==0:
         return 0
-    if not all(isinstance(n, int) for n in arr_result):
-        return 2
-
+    
     if n < 10:
         # Traverse through all array elements
         for i in range(n - 1):
