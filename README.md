@@ -1,1 +1,9 @@
 https://github.com/ET0735-DevOps-AIoT-AY2420/lab-test-1-LebronGames123/tree/CR-001
+date,expense_item,price
+13.01.2022,rice,13.5
+15.01.2022,butter,3.5
+17.01.2022,sugar,2.8
+19.01.2022,apples,4.7
+20.01.2022,oranges,3
+22.01.2022,potatos,2.5
+30.01.2022,rice,12
